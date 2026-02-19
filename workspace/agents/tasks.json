@@ -1,0 +1,18 @@
+{
+  "tasks": [
+    {
+      "id": "test-001",
+      "title": "Test Task - Heartbeat Reporting",
+      "status": "completed",
+      "priority": "high",
+      "createdAt": "2026-02-13T03:33:00Z",
+      "updatedAt": "2026-02-13T05:30:00Z",
+      "assignedTo": "self",
+      "progress": 100,
+      "notes": "Testing Feishu notification on heartbeat - verified working",
+      "reportToFeishu": true,
+      "lastReportedStatus": "completed"
+    }
+  ],
+  "lastUpdated": "2026-02-13T05:30:00Z"
+}

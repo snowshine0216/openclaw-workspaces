@@ -1,0 +1,21 @@
+# Vocabulary Tracker - DEPRECATED
+
+> ⚠️ **This file is no longer used.**
+>
+> **All vocabulary now lives in:** `skills/vocab-review/vocab.json`
+>
+> **Total words:** 428 (as of 2026-02-17)
+>
+> This file is kept for historical reference only. Do NOT add new words here.
+
+---
+
+## Migration History
+
+- **2026-02-17:** Migrated 36 unique words from this file to `vocab.json`
+- 5 words were skipped (already existed in `vocab.json`)
+- All future vocabulary additions go to `skills/vocab-review/vocab.json` only
+
+---
+
+*Deprecated on 2026-02-17*

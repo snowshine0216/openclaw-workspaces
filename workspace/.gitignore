@@ -1,0 +1,24 @@
+# Secrets and credentials - NEVER commit these
+.env
+*.key
+*.pem
+**/credentials/
+auth-profiles.json
+
+# Node modules (if you have local skills with dependencies)
+node_modules/
+.npm/
+.pnpm-store/
+
+# Temporary files
+scratch/
+*.tmp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,11 @@
+{
+  "name": "task-heartbeat",
+  "description": "Background task monitoring with Feishu reporting",
+  "version": "1.0.0",
+  "provides": ["task-tracking", "heartbeat-reporting"],
+  "feishuChatId": "oc_55bf80b97398600ff6da478ae62937de",
+  "files": {
+    "tasks": "agents/tasks.json",
+    "state": "memory/heartbeat-state.json"
+  }
+}

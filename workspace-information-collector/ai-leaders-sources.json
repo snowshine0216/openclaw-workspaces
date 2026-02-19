@@ -1,0 +1,122 @@
+{
+  "ai_leaders": [
+    {
+      "name": "Andrew Ng",
+      "twitter": "https://twitter.com/andrewyng",
+      "website": "https://www.andrewng.org",
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=mG4imMEAAAAJ",
+      "facebook": "https://www.facebook.com/andrew.ng.96"
+    },
+    {
+      "name": "Fei-Fei Li",
+      "twitter": "https://twitter.com/drfeifei",
+      "stanford_profile": "https://profiles.stanford.edu/fei-fei-li/",
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=rDfyQnIAAAAJ"
+    },
+    {
+      "name": "Andrej Karpathy",
+      "twitter": "https://twitter.com/karpathy",
+      "website": "https://karpathy.ai",
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=l8WuQJgAAAAJ"
+    },
+    {
+      "name": "Demis Hassabis",
+      "twitter": "https://twitter.com/demishassabis",
+      "website": "https://deepmind.com/about#leadership",
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=dYpPMQEAAAAJ"
+    },
+    {
+      "name": "Ian Goodfellow",
+      "twitter": "https://twitter.com/goodfellow_ian",
+      "website": "https://www.iangoodfellow.com/",
+      "google_scholar": "https://scholar.google.ca/citations?user=iYN86KEAAAAJ"
+    },
+    {
+      "name": "Yann LeCun",
+      "twitter": "https://twitter.com/ylecun",
+      "website": "https://research.fb.com/people/lecun-yann/",
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=WLN3QrAAAAAJ"
+    },
+    {
+      "name": "Jeremy Howard",
+      "twitter": "https://twitter.com/jeremyphoward",
+      "website": "https://www.fast.ai/about/#jeremy"
+    },
+    {
+      "name": "Ruslan Salakhutdinov",
+      "twitter": "https://twitter.com/rsalakhu",
+      "website": "http://www.cs.cmu.edu/~rsalakhu/"
+    },
+    {
+      "name": "Geoffrey Hinton",
+      "twitter": "https://twitter.com/geoffreyhinton",
+      "website": "http://www.cs.toronto.edu/~hinton/",
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=JicYPdAAAAAJ"
+    },
+    {
+      "name": "Alex Smola",
+      "twitter": "https://twitter.com/smolix",
+      "website": "http://alex.smola.org",
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=Tb0ZrYwAAAAJ"
+    },
+    {
+      "name": "Rana el Kaliouby",
+      "twitter": "https://twitter.com/kaliouby",
+      "ted": "https://www.ted.com/speakers/rana_el_kaliouby",
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=tpg6xzgAAAAJ"
+    },
+    {
+      "name": "Daphne Koller",
+      "twitter": "https://twitter.com/DaphneKoller",
+      "website": "https://ai.stanford.edu/~koller",
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=5Iqe53IAAAAJ"
+    }
+  ],
+  "additional_figures": [
+    {
+      "name": "Sam Altman",
+      "twitter": "https://twitter.com/sama"
+    },
+    {
+      "name": "Ilya Sutskever",
+      "twitter": "https://twitter.com/ilyasut"
+    },
+    {
+      "name": "François Chollet",
+      "twitter": "https://twitter.com/fchollet"
+    },
+    {
+      "name": "Lex Fridman",
+      "twitter": "https://twitter.com/lexfridman"
+    },
+    {
+      "name": "Yoshua Bengio",
+      "twitter": "https://twitter.com/YoshuaBengio"
+    },
+    {
+      "name": "Aravind Srinivas",
+      "twitter": "https://twitter.com/AravSrinivas"
+    }
+  ],
+  "twitter_handles": [
+    "@AndrewYNg",
+    "@drfeifei",
+    "@karpathy",
+    "@demishassabis",
+    "@goodfellow_ian",
+    "@ylecun",
+    "@jeremyphoward",
+    "@rsalakhu",
+    "@geoffreyhinton",
+    "@smolix",
+    "@kaliouby",
+    "@DaphneKoller",
+    "@sama",
+    "@ilyasut",
+    "@fchollet",
+    "@lexfridman",
+    "@YoshuaBengio",
+    "@AravSrinivas"
+  ],
+  "source_article": "https://www.mygreatlearning.com/blog/ai-researchers-and-leaders/"
+}

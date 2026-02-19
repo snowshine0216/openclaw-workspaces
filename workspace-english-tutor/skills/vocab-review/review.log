@@ -1,0 +1,73 @@
+Fri Feb 13 06:49:51 UTC 2026: Starting vocabulary review
+==================================================
+📚 Vocabulary Review System
+==================================================
+[INFO] Removed old file: /root/.openclaw/agents/english-tutor/workspace/skills/vocab-review/daily_review.docx
+[INFO] Loaded 359 vocabulary items
+[INFO] Selected 20 items for today's review
+[INFO] Generated: /root/.openclaw/agents/english-tutor/workspace/skills/vocab-review/daily_review.docx
+[INFO] Updated review status for 20 items
+==================================================
+✅ Daily review document generated!
+📄 File: /root/.openclaw/agents/english-tutor/workspace/skills/vocab-review/daily_review.docx
+🎯 Feishu Chat ID: oc_55bf80b97398600ff6da478ae62937de
+==================================================
+
+--- RESULT ---
+{"file_path": "/root/.openclaw/agents/english-tutor/workspace/skills/vocab-review/daily_review.docx", "chat_id": "oc_55bf80b97398600ff6da478ae62937de", "items_count": 20}
+Fri Feb 13 06:49:51 UTC 2026: Sending document to Feishu
+/root/.openclaw/agents/english-tutor/workspace/skills/vocab-review/cron_review.sh: line 27: openclaw: command not found
+Fri Feb 13 06:54:53 UTC 2026: Starting vocabulary review
+==================================================
+📚 Vocabulary Review System
+==================================================
+[INFO] Removed old file: /root/.openclaw/agents/english-tutor/workspace/skills/vocab-review/daily_review.docx
+[INFO] Loaded 359 vocabulary items
+[INFO] Selected 20 items for today's review
+[INFO] Generated: /root/.openclaw/agents/english-tutor/workspace/skills/vocab-review/daily_review.docx
+[INFO] Updated review status for 20 items
+==================================================
+✅ Daily review document generated!
+📄 File: /root/.openclaw/agents/english-tutor/workspace/skills/vocab-review/daily_review.docx
+🎯 Feishu Chat ID: oc_55bf80b97398600ff6da478ae62937de
+==================================================
+
+--- RESULT ---
+{"file_path": "/root/.openclaw/agents/english-tutor/workspace/skills/vocab-review/daily_review.docx", "chat_id": "oc_55bf80b97398600ff6da478ae62937de", "items_count": 20}
+Fri Feb 13 06:54:53 UTC 2026: Review generated, flag set for sending
+Fri Feb 13 12:00:01 UTC 2026: Starting vocabulary review
+==================================================
+📚 Vocabulary Review System
+==================================================
+[INFO] Removed old file: /root/.openclaw/agents/english-tutor/workspace/skills/vocab-review/daily_review.docx
+[INFO] Loaded 359 vocabulary items
+[INFO] Selected 20 items for today's review
+[INFO] Generated: /root/.openclaw/agents/english-tutor/workspace/skills/vocab-review/daily_review.docx
+[INFO] Updated review status for 20 items
+==================================================
+✅ Daily review document generated!
+📄 File: /root/.openclaw/agents/english-tutor/workspace/skills/vocab-review/daily_review.docx
+🎯 Feishu Chat ID: oc_55bf80b97398600ff6da478ae62937de
+==================================================
+
+--- RESULT ---
+{"file_path": "/root/.openclaw/agents/english-tutor/workspace/skills/vocab-review/daily_review.docx", "chat_id": "oc_55bf80b97398600ff6da478ae62937de", "items_count": 20}
+Fri Feb 13 12:00:02 UTC 2026: Review generated, flag set for sending
+Sat Feb 14 12:00:01 UTC 2026: Starting vocabulary review
+==================================================
+📚 Vocabulary Review System
+==================================================
+[INFO] Removed old file: /root/.openclaw/agents/english-tutor/workspace/skills/vocab-review/daily_review.docx
+[INFO] Loaded 359 vocabulary items
+[INFO] Selected 20 items for today's review
+[INFO] Generated: /root/.openclaw/agents/english-tutor/workspace/skills/vocab-review/daily_review.docx
+[INFO] Updated review status for 20 items
+==================================================
+✅ Daily review document generated!
+📄 File: /root/.openclaw/agents/english-tutor/workspace/skills/vocab-review/daily_review.docx
+🎯 Feishu Chat ID: oc_55bf80b97398600ff6da478ae62937de
+==================================================
+
+--- RESULT ---
+{"file_path": "/root/.openclaw/agents/english-tutor/workspace/skills/vocab-review/daily_review.docx", "chat_id": "oc_55bf80b97398600ff6da478ae62937de", "items_count": 20}
+Sat Feb 14 12:00:01 UTC 2026: Review generated, flag set for sending

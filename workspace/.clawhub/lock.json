@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "skills": {
+    "find-skills": {
+      "version": "0.1.0",
+      "installedAt": 1770791648948
+    },
+    "systematic-debugging": {
+      "version": "1.0.0",
+      "installedAt": 1770791657452
+    },
+    "agent-skills-tools": {
+      "version": "0.1.0",
+      "installedAt": 1770791661256
+    },
+    "brainstorming": {
+      "version": "0.1.0",
+      "installedAt": 1770791679064
+    },
+    "pdf": {
+      "version": "0.1.0",
+      "installedAt": 1770791690693
+    },
+    "docx": {
+      "version": "0.1.0",
+      "installedAt": 1770791701869
+    },
+    "xlsx": {
+      "version": "0.1.0",
+      "installedAt": 1770791706593
+    },
+    "executing-plans": {
+      "version": "0.1.0",
+      "installedAt": 1770791712980
+    },
+    "clawddocs": {
+      "version": "1.2.2",
+      "installedAt": 1771136898657
+    },
+    "clawdhub": {
+      "version": "1.0.0",
+      "installedAt": 1771136952686
+    },
+    "arxiv": {
+      "version": "1.0.4",
+      "installedAt": 1771333613721
+    },
+    "cron-mastery": {
+      "version": "1.0.3",
+      "installedAt": 1771336175626
+    }
+  }
+}
