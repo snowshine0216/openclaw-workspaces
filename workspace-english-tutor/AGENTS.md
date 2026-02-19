@@ -249,105 +249,83 @@ I correct mistakes naturally in conversation, not lectures. I explain *why* some
 
 ### ⚠️ SINGLE SOURCE OF TRUTH
 
-**All vocabulary lives in ONE file:** `skills/vocab-review/vocab.json`
+**All vocabulary lives in:** `projects/vocabulary/data/vocab.db` (SQLite)
 
 This is the **ONLY** place to store vocabulary. No exceptions.
 
-- ✅ ALWAYS add new words to `skills/vocab-review/vocab.json`
+### Adding Words
 
-### Requirements to when adding to vocab.json
-1. **File Location**: under skills/vocab-review in your workspace
-2. **Confirm** — let the user know it's saved for review and show the totcal count after the word/phrase are saved
-3. **Format** - must be consistent with below format
-
-### vocab.json Format
-
-```json
-{
-  "id": <next_id>,
-  "type": "word",
-  "content": "word",
-  "ipa": "/ˈaɪ.piː.eɪ/",
-  "english": "Definition in English",
-  "chinese": "中文翻译",
-  "original_context": "(optional) Where you encountered this word",
-  "example": "Example sentence 1. | Example sentence 2.",
-  "synonyms": ["synonym1", "synonym2"],
-  "fun_fact": "(optional) Etymology, usage trivia, or memorable connection",
-  "memory_trick": "Mnemonics or associations",
-  "added_date": "YYYY-MM-DD",
-  "review_count": 0,
-  "last_reviewed": null,
-  "status": "learning"
-}
-```
-
-### Adding a Word (Python Helper)
+Use the `vocab_manager.py` library:
 
 ```python
-import json
-from datetime import date
+import sys
+sys.path.insert(0, 'skills/vocab-review')
+from vocab_manager import add_word, get_active_count
 
-with open('skills/vocab-review/vocab.json', 'r') as f:
-    data = json.load(f)
-
-new_id = max(item['id'] for item in data['items']) + 1
-
-new_item = {
-    'id': new_id,
+new_id = add_word('projects/vocabulary/data/vocab.db', {
     'type': 'word',
     'content': 'example',
     'ipa': '/ɪɡˈzæm.pəl/',
     'english': 'A thing characteristic of its kind',
     'chinese': '例子；榜样',
-    'original_context': '',
     'example': 'This is an example sentence.',
     'synonyms': ['sample', 'instance'],
     'memory_trick': '',
-    'added_date': str(date.today()),
-    'review_count': 0,
-    'last_reviewed': None,
-    'status': 'learning'
-}
+})
 
-data['items'].append(new_item)
-
-with open('skills/vocab-review/vocab.json', 'w') as f:
-    json.dump(data, f, indent=2, ensure_ascii=False)
+print(f"✅ Added word #{new_id}")
+print(f"📊 Total active vocabulary: {get_active_count('projects/vocabulary/data/vocab.db')}")
 ```
+
+### Requirements When Adding Words
+1. **Confirm** — let the user know it's saved and show the total count
+2. **Format** — use the `add_word()` function (handles schema automatically)
 
 ### Review System
 
-- **Script:** `skills/vocab-review/vocab.py` (Python)
-- **Data:** `skills/vocab-review/vocab.json`
-- **Output:** `daily_review.docx` (Word document)
-- **Cron:** Morning 7AM + Evening 7PM (GMT+8)
-- **Selection:** Spaced repetition (learning → reviewing → mastered)
+- **Script:** `skills/vocab-review/generate_review.py`
+- **Database:** `projects/vocabulary/data/vocab.db`
+- **Output:** `projects/vocabulary/output/daily_review.docx`
+- **Cron:** Morning 7AM (GMT+8)
+- **Selection:** Spaced repetition via SQL query
 
 **Status progression:**
 - `learning`: 0-2 reviews
 - `reviewing`: 3-6 reviews
-- `mastered`: 7+ reviews
+- `mastered`: 7+ reviews → auto-archived after 30 days inactive
 
+### Backup
+
+- **Daily:** SQLite `.backup` → `vocab.db.bak` → git push (2 AM GMT+8)
+- **Restore:** Copy `vocab.db.bak` → `vocab.db`
 
 ### Workspace Structure
 
 ```
 workspace-english-tutor/
+├── projects/
+│   └── vocabulary/
+│       ├── data/
+│       │   ├── vocab.db           ← ⭐ SINGLE SOURCE OF TRUTH (SQLite)
+│       │   └── vocab.db.bak       ← Daily backup (git-tracked)
+│       ├── output/
+│       │   └── daily_review.docx  ← Generated reviews
+│       └── docs/
+│           └── VOCAB_REFACTOR_PLAN.md
 ├── skills/
 │   └── vocab-review/
-│       ├── vocab.json         ← ⭐ SINGLE SOURCE OF TRUTH
-│       ├── vocab.py           ← Review script (Python)
-│       └── daily_review.docx  ← Generated output
+│       ├── vocab_manager.py       ← Core logic (add/archive/select)
+│       ├── generate_review.py     ← Review generator
+│       ├── vocab.json.backup      ← Old JSON (deprecated)
+│       └── .venv/                 ← Virtual environment
 ├── memory/
-│   ├── vocabulary.md.deprecated ← ⚠️ DEPRECATED
-│   └── 2026-02-*.md           ← Daily session logs
-├── AGENTS.md                  ← This file
-├── SOUL.md                    ← Personality
-├── USER.md                    ← User info
-├── MEMORY.md                  ← Long-term memory
-├── TOOLS.md                   ← Local notes
-└── HEARTBEAT.md               ← Periodic tasks
+│   └── 2026-02-*.md               ← Daily session logs
+├── AGENTS.md                      ← This file
+├── SOUL.md                        ← Personality
+├── USER.md                        ← User info
+├── MEMORY.md                      ← Long-term memory
+├── TOOLS.md                       ← Local notes
+└── HEARTBEAT.md                   ← Periodic tasks
 ```
 
 ---
