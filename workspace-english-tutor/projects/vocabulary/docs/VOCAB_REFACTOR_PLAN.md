@@ -43,8 +43,6 @@ workspace-english-tutor/
 │       ├── requirements.txt          ← Dependencies
 │       └── .venv/                    ← Virtual environment
 │
-├── .git/                             ← Git repository
-├── .gitignore                        ← Ignore output/, .venv/
 ├── AGENTS.md                         ← Documents workspace conventions
 └── ...
 ```
@@ -97,28 +95,13 @@ Weight selection by:
 - ✅ Works with cron
 - ✅ Zero maintenance
 
-### Setup
-```bash
-cd /root/.openclaw/workspace-english-tutor
-git init
-echo "output/" >> .gitignore
-echo ".venv/" >> .gitignore
-echo "*.pyc" >> .gitignore
-echo "__pycache__/" >> .gitignore
-git add .
-git commit -m "Initial commit: vocabulary system"
-git remote add origin <your-repo-url>
-git push -u origin main
-```
-
-### Automated Daily Backup (Cron)
 ```json
 {
   "name": "vocab-backup",
   "schedule": { "kind": "cron", "expr": "0 2 * * *", "tz": "UTC" },
   "payload": {
     "kind": "systemEvent",
-    "text": "cd /root/.openclaw/workspace-english-tutor && git add projects/vocabulary/data && git commit -m 'Daily vocab backup' && git push"
+    "text": "cd /root/openclaw-workspaces/workspace-english-tutor && git add projects/vocabulary/data && git commit -m 'Daily vocab backup' && git push"
   },
   "sessionTarget": "main"
 }
@@ -543,12 +526,10 @@ manager.add_word({
 }
 ```
 
-### Phase 5: Update HEARTBEAT.md (1 min)
+### Phase 5: Update AGENTS.md (1 min)
 
 Replace the vocabulary section with:
 
-```markdown
-## Daily Tasks
 
 ### Vocabulary Review Sender
 If `/root/.openclaw/workspace-english-tutor/projects/vocabulary/output/.send_pending` exists:
