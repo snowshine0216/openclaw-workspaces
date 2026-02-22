@@ -71,3 +71,68 @@ Sat Feb 14 12:00:01 UTC 2026: Starting vocabulary review
 --- RESULT ---
 {"file_path": "/root/.openclaw/agents/english-tutor/workspace/skills/vocab-review/daily_review.docx", "chat_id": "oc_55bf80b97398600ff6da478ae62937de", "items_count": 20}
 Sat Feb 14 12:00:01 UTC 2026: Review generated, flag set for sending
+Fri Feb 20 23:04:50 UTC 2026: Starting vocabulary review
+==================================================
+📚 Vocabulary Review Generator
+==================================================
+[INFO] Selected 20 items for review
+[INFO] Active vocabulary: 379
+[INFO] Generated: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+[INFO] Updated review status for 20 items
+==================================================
+✅ Daily review document generated!
+==================================================
+2026-02-20T23:04:51.114Z: === Starting vocabulary review delivery ===
+2026-02-20T23:04:51.114Z: === Starting vocabulary review delivery ===
+2026-02-20T23:04:51.115Z: Getting tenant access token...
+2026-02-20T23:04:51.115Z: Getting tenant access token...
+2026-02-20T23:04:52.201Z: ✓ Got tenant access token
+2026-02-20T23:04:52.201Z: ✓ Got tenant access token
+2026-02-20T23:04:52.201Z: Uploading file: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+2026-02-20T23:04:52.201Z: Uploading file: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+2026-02-20T23:04:53.128Z: ✓ File uploaded, file_key: file_v3_00v4_90a8ddc0-e85a-4c0a-af2e-7c83e9a1843g
+2026-02-20T23:04:53.128Z: ✓ File uploaded, file_key: file_v3_00v4_90a8ddc0-e85a-4c0a-af2e-7c83e9a1843g
+2026-02-20T23:04:53.129Z: Sending message to chat: oc_55bf80b97398600ff6da478ae62937de
+2026-02-20T23:04:53.129Z: Sending message to chat: oc_55bf80b97398600ff6da478ae62937de
+2026-02-20T23:04:53.606Z: ERROR: Failed to send message: Bot/User can NOT be out of the chat.
+2026-02-20T23:04:53.606Z: ERROR: Failed to send message: Bot/User can NOT be out of the chat.
+Error: Failed to send message: Bot/User can NOT be out of the chat.
+    at sendMessage (file:///root/openclaw-workspaces/workspace-english-tutor/skills/vocab-review/send_to_feishu.mjs:161:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async main (file:///root/openclaw-workspaces/workspace-english-tutor/skills/vocab-review/send_to_feishu.mjs:182:5)
+2026-02-20T23:05:06.645Z: === Starting vocabulary review delivery ===
+2026-02-20T23:05:06.647Z: Getting tenant access token...
+2026-02-20T23:05:07.462Z: ✓ Got tenant access token
+2026-02-20T23:05:07.462Z: Uploading file: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+2026-02-20T23:05:08.304Z: ✓ File uploaded, file_key: file_v3_00v4_6881b34b-72a9-49f5-8415-7411496deaeg
+2026-02-20T23:05:08.305Z: Sending message to chat: oc_eb619c8fea8c56afb88b44bf92abaca1
+2026-02-20T23:05:09.143Z: ✓ Message sent successfully
+2026-02-20T23:05:09.143Z: === Delivery complete ===
+Sat Feb 21 23:00:01 UTC 2026: Starting vocabulary review
+==================================================
+📚 Vocabulary Review Generator
+==================================================
+[INFO] Selected 20 items for review
+[INFO] Active vocabulary: 391
+[INFO] Generated: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+[INFO] Updated review status for 20 items
+==================================================
+✅ Daily review document generated!
+==================================================
+2026-02-21T23:00:01.901Z: === Starting vocabulary review delivery ===
+2026-02-21T23:00:01.901Z: === Starting vocabulary review delivery ===
+2026-02-21T23:00:01.905Z: Getting tenant access token...
+2026-02-21T23:00:01.905Z: Getting tenant access token...
+2026-02-21T23:00:03.140Z: ✓ Got tenant access token
+2026-02-21T23:00:03.140Z: ✓ Got tenant access token
+2026-02-21T23:00:03.141Z: Uploading file: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+2026-02-21T23:00:03.141Z: Uploading file: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+2026-02-21T23:00:04.132Z: ✓ File uploaded, file_key: file_v3_00v5_21b083b0-20bc-46c2-bce5-3eb8308fbfcg
+2026-02-21T23:00:04.132Z: ✓ File uploaded, file_key: file_v3_00v5_21b083b0-20bc-46c2-bce5-3eb8308fbfcg
+2026-02-21T23:00:04.133Z: Sending message to chat: oc_eb619c8fea8c56afb88b44bf92abaca1
+2026-02-21T23:00:04.133Z: Sending message to chat: oc_eb619c8fea8c56afb88b44bf92abaca1
+2026-02-21T23:00:05.046Z: ✓ Message sent successfully
+2026-02-21T23:00:05.046Z: ✓ Message sent successfully
+2026-02-21T23:00:05.046Z: === Delivery complete ===
+2026-02-21T23:00:05.046Z: === Delivery complete ===
+Sat Feb 21 23:00:05 UTC 2026: Review generated and sent

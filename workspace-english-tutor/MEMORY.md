@@ -11,7 +11,8 @@
 - Account: "default" (critical naming requirement)
 - dmPolicy: "open" (bypassed pairing for testing)
 - Test user: ou_6f7951d4e2d259e02ef5791ee86d38d6
-- Chat ID: oc_55bf80b97398600ff6da478ae62937de
+- Chat ID (English Tutor): oc_eb619c8fea8c56afb88b44bf92abaca1
+- Chat ID (Other): oc_55bf80b97398600ff6da478ae62937de
 
 ### Gmail (Working ✅)
 - Email: xue.yin.0216@gmail.com

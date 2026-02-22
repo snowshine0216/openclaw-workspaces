@@ -1,23 +1,27 @@
 #!/bin/bash
 # Daily Vocabulary Review Cron Job
-# Runs at 8 PM GMT+8 (12 PM UTC)
-# Generates .docx and sets flag for OpenClaw heartbeat to send
+# Runs at 7 AM GMT+8 (11 PM UTC previous day)
+# Generates .docx and sends directly to Feishu
 
 set -e
 
-SCRIPT_DIR="/root/.openclaw/agents/english-tutor/workspace/skills/vocab-review"
-VOCAB_SCRIPT="$SCRIPT_DIR/vocab.py"
-FLAG_FILE="$SCRIPT_DIR/.send_pending"
+WORKSPACE_DIR="/root/openclaw-workspaces/workspace-english-tutor"
+SCRIPT_DIR="$WORKSPACE_DIR/skills/vocab-review"
+GENERATE_SCRIPT="$SCRIPT_DIR/generate_review.py"
+SEND_SCRIPT="$SCRIPT_DIR/send_to_feishu.mjs"
 LOG_FILE="$SCRIPT_DIR/review.log"
 
 echo "$(date): Starting vocabulary review" >> "$LOG_FILE"
 
-# Run Python script to generate .docx and update vocab.json
+# Load environment variables
+export $(grep -v '^#' /root/.openclaw/.env | xargs)
+
+# Run Python script to generate .docx
 cd "$SCRIPT_DIR"
 source .venv/bin/activate
-python3 "$VOCAB_SCRIPT" >> "$LOG_FILE" 2>&1
+python3 "$GENERATE_SCRIPT" >> "$LOG_FILE" 2>&1
 
-# Create flag file to signal OpenClaw heartbeat to send the file
-touch "$FLAG_FILE"
+# Send to Feishu
+node "$SEND_SCRIPT" >> "$LOG_FILE" 2>&1
 
-echo "$(date): Review generated, flag set for sending" >> "$LOG_FILE"
+echo "$(date): Review generated and sent" >> "$LOG_FILE"

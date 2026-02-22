@@ -1,0 +1,13 @@
+{
+  "lastUpdate": "2026-02-21T23:00:00Z",
+  "storyUrls": [
+    "https://www.engadget.com/ai/microsoft-reportedly-plans-to-start-using-anthropic-models-to-power-some-of-office-365s-copilot-features-202017205.html",
+    "https://about.fb.com/news/2026/02/meta-nvidia-announce-long-term-infrastructure-partnership/",
+    "https://about.fb.com/news/2026/02/meta-works-with-the-uk-national-crime-agency-and-the-nigerian-police-force-to-disrupt-alleged-online-scams-centre-in-nigeria/",
+    "https://www.engadget.com/ai/the-us-will-send-tech-corps-members-to-foreign-countries-in-its-latest-push-for-ai-dominance-191916940.html",
+    "https://www.engadget.com/ai/airbnb-is-testing-out-ai-search-with-a-small-percentage-of-users-203054011.html",
+    "https://www.engadget.com/science/space/spacex-wants-to-launch-a-constellation-of-a-million-satellites-to-power-ai-needs-175607771.html",
+    "https://www.engadget.com/ai/apple-hit-with-another-class-action-lawsuit-for-alleged-copyright-infringement-175242922.html"
+  ],
+  "note": "Tracks URLs from tavily-search digest to prevent duplicates"
+}

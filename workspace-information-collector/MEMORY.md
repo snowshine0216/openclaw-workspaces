@@ -30,8 +30,9 @@
 ## Knowledge Base Index
 
 Recent entries in `projects/knowledge-base/`:
+- 2026-02-21: AI Agent Testing: Dev to Production → ai-tools/2026-02-21-ai-agent-testing-production.md
+- 2026-02-20: Django REST API Optimization → ai-tools/2026-02-20-django-rest-api-optimization.md
 - 2026-02-19: Example entry (setup) → ai-models/2026-02-19-example-entry.md
-- 2026-02-19: Claude Code YC Interview Analysis → ai-tools/2026-02-19-claude-code-yc-interview.md
 
 Topics: ai-models, ai-research, ai-tools, ai-industry, ai-qa  
 Search: `bash projects/knowledge-base/search.sh "query"`
