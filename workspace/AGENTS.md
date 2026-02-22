@@ -82,6 +82,25 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - When in doubt, ask.
 - Don't write sensitive information into your memory file. ONLY write into .env file
 
+### 🔴 NO SECRETS IN MEMORY FILES
+
+**Never write to memory files (`memory/*.md`, `MEMORY.md`, `reports/*.md`):**
+- API keys, tokens, passwords
+- OAuth client IDs/secrets
+- App secrets (Feishu, Google, etc.)
+- Any credential that belongs in `.env`
+
+**Only write to memory:**
+- Decisions, context, lessons learned
+- "Migrated secrets to .env" (WITHOUT the actual values)
+- References like "Check `.env` for credentials"
+
+**If you need to reference a secret:**
+- ✅ Write: "See `.env` for GMAIL_CLIENT_SECRET"
+- ❌ NEVER write: "GMAIL_CLIENT_SECRET=GOCSPX-xxx"
+
+**Memory files are NOT secure storage.** They get committed to git and pushed to GitHub.
+
 ## External vs Internal
 
 **Safe to do freely:**
