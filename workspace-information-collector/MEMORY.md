@@ -30,6 +30,8 @@
 ## Knowledge Base Index
 
 Recent entries in `projects/knowledge-base/`:
+- 2026-02-27: Meta JiTTests → ai-tools/2026-02-27-meta-jit-tests.md
+- 2026-02-28: AI Model Decision Matrix → ai-tools/2026-02-28-ai-model-decision-matrix.md
 - 2026-02-21: AI Agent Testing: Dev to Production → ai-tools/2026-02-21-ai-agent-testing-production.md
 - 2026-02-20: Django REST API Optimization → ai-tools/2026-02-20-django-rest-api-optimization.md
 - 2026-02-19: Example entry (setup) → ai-models/2026-02-19-example-entry.md
