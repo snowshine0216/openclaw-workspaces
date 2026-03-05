@@ -107,3 +107,52 @@ tmux new-session -d -s codex "codex"
 
 - tmux control is powerful: it can execute anything the server user can execute.
 - Prefer a dedicated session name (like `codex`) to avoid sending keystrokes to the wrong process.
+
+## Python env setup with `uv`
+
+If you hit `error: externally-managed-environment` with system `pip`, use a project-local virtual environment.
+
+Run this inside your project directory:
+
+```bash
+# install uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# create and activate venv
+uv venv
+source .venv/bin/activate
+
+# install package from GitHub zip
+uv pip install "agent-reach @ https://github.com/Panniantong/agent-reach/archive/main.zip"
+```
+
+Notes:
+- Run `uv venv` in the folder where you want `.venv` to live.
+- Use `uv` (not `u`).
+
+## MCPorter + Exa setup
+
+Use this if you want `mcporter` to call Exa search tools via MCP.
+
+```bash
+# 1) install mcporter (optional globally; you can also use npx)
+npm i -g mcporter
+
+# 2) persist Exa API key in your shell
+# replace with your real key
+ echo 'export EXA_API_KEY="YOUR_EXA_API_KEY"' >> ~/.bashrc
+source ~/.bashrc
+
+# 3) add Exa MCP server to mcporter home config
+mcporter config --config ~/.mcporter/mcporter.json add exa --transport stdio --stdio "npx -y exa-mcp-server" --env 'EXA_API_KEY=${EXA_API_KEY}'
+
+# 4) verify tools are visible
+mcporter list exa --all-parameters
+
+# 5) smoke test
+mcporter call exa.web_search_exa query="latest OpenClaw docs" numResults=5
+```
+
+Notes:
+- Project-local config alternative: replace `--config ~/.mcporter/mcporter.json` with `--config ./config/mcporter.json`.
+- If your shell is `zsh`, persist the key in `~/.zshrc` instead of `~/.bashrc`.
