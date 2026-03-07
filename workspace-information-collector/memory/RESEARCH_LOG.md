@@ -47,3 +47,28 @@
 - **Authors**: Patrick Gerard, Svitlana Volkova
 - **Link**: https://arxiv.org/abs/2603.03242
 - **Summary**: Language models deployed in online communities must adapt to norms that vary across social, cultural, and domain-specific contexts. Prior alignment approaches rely on explicit preference supervision or predefined principles, which are effective for well-resourced settings but exclude most online communities -- particularly those without institutional backing, annotation infrastructure, or organized around sensitive topics -- where preference elicitation is costly, ethically fraught, or culturally misaligned. We observe that communities already express preferences implicitly through what content they accept, engage with, and allow to persist. We show that this acceptance behavior induces measurable geometric structure in representation space: accepted responses occupy coherent, high-density regions that reflect community-specific norms, while rejected content falls in sparser or misaligned areas. We operationalize this structure as an implicit preference signal for alignment and introduce density-guided response optimization (DGRO), a method that aligns language models to community norms without requiring explicit preference labels. Using labeled preference data, we demonstrate that local density recovers pairwise community judgments, indicating that geometric structure encodes meaningful preference signal. We then apply DGRO in annotation-scarce settings across diverse communities spanning platform, topic, and language. DGRO-aligned models consistently produce responses preferred by human annotators, domain experts, and model-based judges over supervised and prompt-based baselines. We position DGRO as a practical alignment alternative for communities where explicit preference supervision is unavailable or misaligned with situated practices, and discuss the implications and risks of learning from emergent acceptance behavior.
+### [2026-03-06] RoboPocket: Improve Robot Policies Instantly with Your Phone
+- **Authors**: Junjie Fang; Wendi Chen; Han Xue; Fangyuan Zhou; Tian Le; Yi Wang; Yuting Zhang; Jun Lv; Chuan Wen; Cewu Lu
+- **Link**: https://arxiv.org/abs/2603.05504
+- **Summary**: AR visual foresight + remote inference lets you iterate robot policies without executing on a physical robot; reports ~2× data efficiency and up to 2× sample-efficiency in distributed interactive corrections.
+
+### [2026-03-06] POET-X: Memory-efficient LLM Training by Scaling Orthogonal Transformation
+- **Authors**: Zeju Qiu; Lixin Liu; Adrian Weller; Han Shi; Weiyang Liu
+- **Link**: https://arxiv.org/abs/2603.05500
+- **Summary**: Memory/throughput-optimized orthogonal-equivalence training; claims billion-parameter pretraining fits on a single NVIDIA H100 where AdamW OOMs.
+
+### [2026-03-06] The Spike, the Sparse and the Sink: Anatomy of Massive Activations and Attention Sinks
+- **Authors**: Shangwen Sun; Alfredo Canziani; Yann LeCun; Jiachen Zhu
+- **Link**: https://arxiv.org/abs/2603.05498
+- **Summary**: Disentangles massive activation outliers vs attention sinks; argues their co-occurrence is largely a pre-norm architectural artifact and they play distinct global vs local roles.
+
+### [2026-03-06] Censored LLMs as a Natural Testbed for Secret Knowledge Elicitation
+- **Authors**: Helena Casademunt; Bartosz Cywiński; Khoi Tran; Arya Jakkli; Samuel Marks; Neel Nanda
+- **Link**: https://arxiv.org/abs/2603.05494
+- **Summary**: Uses politically-censored open LLMs as a “natural” dishonesty testbed; finds some elicitation methods improve truthfulness, and self-lie-detection approaches can approach an uncensored-model upper bound—no method fully fixes falsehoods.
+
+### [2026-03-06] Reasoning Theater: Disentangling Model Beliefs from Chain-of-Thought
+- **Authors**: Siddharth Boppana; Annabel Ma; Max Loeffler; Raphael Sarfati; Eric Bigelow; Atticus Geiger; Owen Lewis; Jack Merullo
+- **Link**: https://arxiv.org/abs/2603.05488
+- **Summary**: Evidence for performative CoT: final answers become decodable much earlier than the written reasoning; probe-guided early exit cuts tokens up to ~80% (MMLU) and ~30% (GPQA-Diamond) with similar accuracy.
+

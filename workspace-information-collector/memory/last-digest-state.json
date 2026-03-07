@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-03-04T23:00:00Z",
+  "lastUpdate": "2026-03-06T23:00:00Z",
   "storyUrls": [
-    "https://www.reuters.com/business/retail-consumer/anthropic-investors-push-de-escalate-pentagon-clash-over-ai-safeguards-sources-2026-03-04/",
-    "https://www.latimes.com/business/story/2026-03-04/sam-altman-admits-openais-pentagon-deal-was-rushed-sloppy",
-    "https://thenextweb.com/news/openai-launches-gpt-5-3-instant-to-improve-chatgpts-most-used-model",
-    "https://www.cnbc.com/2026/03/04/xiaomi-plans-yearly-smartphone-chip-release-ai-assistant-for-overseas.html",
-    "https://www.nature.com/articles/s41586-026-10176-5",
-    "https://techcrunch.com/2026/03/04/googles-gemini-rolls-out-canvas-in-ai-mode-to-all-us-users/",
-    "https://techcrunch.com/2026/03/03/alibabas-qwen-tech-lead-steps-down-after-major-ai-push/"
+    "https://www.forbes.com/sites/janakirammsv/2026/03/06/microsoft-builds-a-compact-ai-model-that-decides-when-to-think/",
+    "https://techcrunch.com/2026/03/05/anthropic-to-challenge-dods-supply-chain-label-in-court/",
+    "https://www.cnbc.com/2026/03/05/microsoft-says-anthropics-products-can-remain-available-to-customers-after-security-risk-designation.html",
+    "https://www.bloomberg.com/news/articles/2026-03-06/oracle-and-openai-end-plans-to-expand-flagship-data-center",
+    "https://techcrunch.com/2026/03/06/after-europe-whatsapp-will-let-rival-ai-companies-offer-chatbots-in-brazil/",
+    "https://www.axios.com/2026/03/06/ai-doctor-health-information-consumers",
+    "https://roboticsandautomationnews.com/2026/03/06/dexteritys-says-its-new-world-model-delivers-major-leap-forward-for-physical-ai-powered-truck-loading/99288/"
   ],
   "note": "Tracks URLs from tavily-search digest to prevent duplicates"
 }
