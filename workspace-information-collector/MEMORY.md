@@ -4,6 +4,8 @@
 - **Channel**: Feishu (primary)
 - **No Tailscale** - prefers simpler setups without tunnel services
 - **Research tool**: Tavily Search (AI-optimized, always use for AI news/research)
+- **Notion destination**: `Information Collection` page (`https://www.notion.so/Information-Collection-31ff88e60a2b80d19d0bf131958f707d?source=copy_link`) is the default destination whenever the user asks to send/push something to Notion
+- **Default summary format**: Always structure summaries as `1. Executive Summary 2. Key Takeaways 3. Insights`, and keep them concrete
 
 ## Integrations
 
