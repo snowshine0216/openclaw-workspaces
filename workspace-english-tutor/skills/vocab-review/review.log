@@ -500,3 +500,227 @@ Fri Mar  6 23:00:01 UTC 2026: Starting vocabulary review
 2026-03-06T23:00:04.610Z: === Delivery complete ===
 2026-03-06T23:00:04.610Z: === Delivery complete ===
 Fri Mar  6 23:00:04 UTC 2026: Review generated and sent
+Sat Mar  7 23:00:01 UTC 2026: Starting vocabulary review
+==================================================
+📚 Vocabulary Review Generator
+==================================================
+[INFO] Selected 20 items for review
+[INFO] Active vocabulary: 426
+[INFO] Generated: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+[INFO] Updated review status for 20 items
+==================================================
+✅ Daily review document generated!
+==================================================
+2026-03-07T23:00:01.729Z: === Starting vocabulary review delivery ===
+2026-03-07T23:00:01.729Z: === Starting vocabulary review delivery ===
+2026-03-07T23:00:01.730Z: Getting tenant access token...
+2026-03-07T23:00:01.730Z: Getting tenant access token...
+2026-03-07T23:00:02.564Z: ✓ Got tenant access token
+2026-03-07T23:00:02.564Z: ✓ Got tenant access token
+2026-03-07T23:00:02.564Z: Uploading file: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+2026-03-07T23:00:02.564Z: Uploading file: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+2026-03-07T23:00:03.421Z: ✓ File uploaded, file_key: file_v3_00vj_65d6bbec-52cc-43e9-bfbd-e34555c07dag
+2026-03-07T23:00:03.421Z: ✓ File uploaded, file_key: file_v3_00vj_65d6bbec-52cc-43e9-bfbd-e34555c07dag
+2026-03-07T23:00:03.421Z: Sending message to chat: oc_eb619c8fea8c56afb88b44bf92abaca1
+2026-03-07T23:00:03.421Z: Sending message to chat: oc_eb619c8fea8c56afb88b44bf92abaca1
+2026-03-07T23:00:04.306Z: ✓ Message sent successfully
+2026-03-07T23:00:04.306Z: ✓ Message sent successfully
+2026-03-07T23:00:04.306Z: === Delivery complete ===
+2026-03-07T23:00:04.306Z: === Delivery complete ===
+Sat Mar  7 23:00:04 UTC 2026: Review generated and sent
+Sun Mar  8 23:00:01 UTC 2026: Starting vocabulary review
+==================================================
+📚 Vocabulary Review Generator
+==================================================
+[INFO] Selected 20 items for review
+[INFO] Active vocabulary: 426
+[INFO] Generated: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+[INFO] Updated review status for 20 items
+==================================================
+✅ Daily review document generated!
+==================================================
+2026-03-08T23:00:01.597Z: === Starting vocabulary review delivery ===
+2026-03-08T23:00:01.597Z: === Starting vocabulary review delivery ===
+2026-03-08T23:00:01.598Z: Getting tenant access token...
+2026-03-08T23:00:01.598Z: Getting tenant access token...
+2026-03-08T23:00:01.780Z: ✓ Got tenant access token
+2026-03-08T23:00:01.780Z: ✓ Got tenant access token
+2026-03-08T23:00:01.780Z: Uploading file: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+2026-03-08T23:00:01.780Z: Uploading file: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+2026-03-08T23:00:02.133Z: ✓ File uploaded, file_key: file_v3_00vk_cc1c0993-5986-4929-afce-827040b1ffbg
+2026-03-08T23:00:02.133Z: ✓ File uploaded, file_key: file_v3_00vk_cc1c0993-5986-4929-afce-827040b1ffbg
+2026-03-08T23:00:02.134Z: Sending message to chat: oc_eb619c8fea8c56afb88b44bf92abaca1
+2026-03-08T23:00:02.134Z: Sending message to chat: oc_eb619c8fea8c56afb88b44bf92abaca1
+2026-03-08T23:00:02.775Z: ✓ Message sent successfully
+2026-03-08T23:00:02.775Z: ✓ Message sent successfully
+2026-03-08T23:00:02.776Z: === Delivery complete ===
+2026-03-08T23:00:02.776Z: === Delivery complete ===
+Sun Mar  8 23:00:02 UTC 2026: Review generated and sent
+Mon Mar  9 23:00:01 UTC 2026: Starting vocabulary review
+==================================================
+📚 Vocabulary Review Generator
+==================================================
+[INFO] Selected 20 items for review
+[INFO] Active vocabulary: 427
+[INFO] Generated: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+[INFO] Updated review status for 20 items
+==================================================
+✅ Daily review document generated!
+==================================================
+2026-03-09T23:00:02.319Z: === Starting vocabulary review delivery ===
+2026-03-09T23:00:02.319Z: === Starting vocabulary review delivery ===
+2026-03-09T23:00:02.320Z: Getting tenant access token...
+2026-03-09T23:00:02.320Z: Getting tenant access token...
+2026-03-09T23:00:03.369Z: ✓ Got tenant access token
+2026-03-09T23:00:03.369Z: ✓ Got tenant access token
+2026-03-09T23:00:03.369Z: Uploading file: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+2026-03-09T23:00:03.369Z: Uploading file: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+2026-03-09T23:00:04.396Z: ✓ File uploaded, file_key: file_v3_00vl_d3c8faa8-a0aa-466b-9a79-23052eb77b9g
+2026-03-09T23:00:04.396Z: ✓ File uploaded, file_key: file_v3_00vl_d3c8faa8-a0aa-466b-9a79-23052eb77b9g
+2026-03-09T23:00:04.396Z: Sending message to chat: oc_eb619c8fea8c56afb88b44bf92abaca1
+2026-03-09T23:00:04.396Z: Sending message to chat: oc_eb619c8fea8c56afb88b44bf92abaca1
+2026-03-09T23:00:05.473Z: ✓ Message sent successfully
+2026-03-09T23:00:05.473Z: ✓ Message sent successfully
+2026-03-09T23:00:05.473Z: === Delivery complete ===
+2026-03-09T23:00:05.473Z: === Delivery complete ===
+Mon Mar  9 23:00:05 UTC 2026: Review generated and sent
+Tue Mar 10 23:00:01 UTC 2026: Starting vocabulary review
+==================================================
+📚 Vocabulary Review Generator
+==================================================
+[INFO] Selected 20 items for review
+[INFO] Active vocabulary: 427
+[INFO] Generated: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+[INFO] Updated review status for 20 items
+==================================================
+✅ Daily review document generated!
+==================================================
+2026-03-10T23:00:01.961Z: === Starting vocabulary review delivery ===
+2026-03-10T23:00:01.961Z: === Starting vocabulary review delivery ===
+2026-03-10T23:00:01.962Z: Getting tenant access token...
+2026-03-10T23:00:01.962Z: Getting tenant access token...
+2026-03-10T23:00:03.009Z: ✓ Got tenant access token
+2026-03-10T23:00:03.009Z: ✓ Got tenant access token
+2026-03-10T23:00:03.009Z: Uploading file: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+2026-03-10T23:00:03.009Z: Uploading file: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+2026-03-10T23:00:03.998Z: ✓ File uploaded, file_key: file_v3_00vm_440c5bd1-16d3-4ff1-a08f-c5fb38207cbg
+2026-03-10T23:00:03.998Z: ✓ File uploaded, file_key: file_v3_00vm_440c5bd1-16d3-4ff1-a08f-c5fb38207cbg
+2026-03-10T23:00:03.999Z: Sending message to chat: oc_eb619c8fea8c56afb88b44bf92abaca1
+2026-03-10T23:00:03.999Z: Sending message to chat: oc_eb619c8fea8c56afb88b44bf92abaca1
+2026-03-10T23:00:04.930Z: ✓ Message sent successfully
+2026-03-10T23:00:04.930Z: ✓ Message sent successfully
+2026-03-10T23:00:04.930Z: === Delivery complete ===
+2026-03-10T23:00:04.930Z: === Delivery complete ===
+Tue Mar 10 23:00:04 UTC 2026: Review generated and sent
+Wed Mar 11 23:00:01 UTC 2026: Starting vocabulary review
+==================================================
+📚 Vocabulary Review Generator
+==================================================
+[INFO] Selected 20 items for review
+[INFO] Active vocabulary: 427
+[INFO] Generated: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+[INFO] Updated review status for 20 items
+==================================================
+✅ Daily review document generated!
+==================================================
+2026-03-11T23:00:02.432Z: === Starting vocabulary review delivery ===
+2026-03-11T23:00:02.432Z: === Starting vocabulary review delivery ===
+2026-03-11T23:00:02.433Z: Getting tenant access token...
+2026-03-11T23:00:02.433Z: Getting tenant access token...
+2026-03-11T23:00:03.521Z: ✓ Got tenant access token
+2026-03-11T23:00:03.521Z: ✓ Got tenant access token
+2026-03-11T23:00:03.521Z: Uploading file: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+2026-03-11T23:00:03.521Z: Uploading file: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+2026-03-11T23:00:04.767Z: ✓ File uploaded, file_key: file_v3_00vn_5fe7827a-e4a4-47ea-a555-cd0367901b5g
+2026-03-11T23:00:04.767Z: ✓ File uploaded, file_key: file_v3_00vn_5fe7827a-e4a4-47ea-a555-cd0367901b5g
+2026-03-11T23:00:04.767Z: Sending message to chat: oc_eb619c8fea8c56afb88b44bf92abaca1
+2026-03-11T23:00:04.767Z: Sending message to chat: oc_eb619c8fea8c56afb88b44bf92abaca1
+2026-03-11T23:00:05.826Z: ✓ Message sent successfully
+2026-03-11T23:00:05.826Z: ✓ Message sent successfully
+2026-03-11T23:00:05.826Z: === Delivery complete ===
+2026-03-11T23:00:05.826Z: === Delivery complete ===
+Wed Mar 11 23:00:05 UTC 2026: Review generated and sent
+Thu Mar 12 23:00:01 UTC 2026: Starting vocabulary review
+==================================================
+📚 Vocabulary Review Generator
+==================================================
+[INFO] Selected 20 items for review
+[INFO] Active vocabulary: 427
+[INFO] Generated: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+[INFO] Updated review status for 20 items
+==================================================
+✅ Daily review document generated!
+==================================================
+2026-03-12T23:00:01.826Z: === Starting vocabulary review delivery ===
+2026-03-12T23:00:01.826Z: === Starting vocabulary review delivery ===
+2026-03-12T23:00:01.827Z: Getting tenant access token...
+2026-03-12T23:00:01.827Z: Getting tenant access token...
+2026-03-12T23:00:02.955Z: ✓ Got tenant access token
+2026-03-12T23:00:02.955Z: ✓ Got tenant access token
+2026-03-12T23:00:02.955Z: Uploading file: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+2026-03-12T23:00:02.955Z: Uploading file: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+2026-03-12T23:00:03.984Z: ✓ File uploaded, file_key: file_v3_00vo_586f024c-bc63-4a38-bbc5-6609e325d6ag
+2026-03-12T23:00:03.984Z: ✓ File uploaded, file_key: file_v3_00vo_586f024c-bc63-4a38-bbc5-6609e325d6ag
+2026-03-12T23:00:03.984Z: Sending message to chat: oc_eb619c8fea8c56afb88b44bf92abaca1
+2026-03-12T23:00:03.984Z: Sending message to chat: oc_eb619c8fea8c56afb88b44bf92abaca1
+2026-03-12T23:00:04.924Z: ✓ Message sent successfully
+2026-03-12T23:00:04.924Z: ✓ Message sent successfully
+2026-03-12T23:00:04.924Z: === Delivery complete ===
+2026-03-12T23:00:04.924Z: === Delivery complete ===
+Thu Mar 12 23:00:04 UTC 2026: Review generated and sent
+Fri Mar 13 23:00:01 UTC 2026: Starting vocabulary review
+==================================================
+📚 Vocabulary Review Generator
+==================================================
+[INFO] Selected 20 items for review
+[INFO] Active vocabulary: 427
+[INFO] Generated: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+[INFO] Updated review status for 20 items
+==================================================
+✅ Daily review document generated!
+==================================================
+2026-03-13T23:00:02.043Z: === Starting vocabulary review delivery ===
+2026-03-13T23:00:02.043Z: === Starting vocabulary review delivery ===
+2026-03-13T23:00:02.044Z: Getting tenant access token...
+2026-03-13T23:00:02.044Z: Getting tenant access token...
+2026-03-13T23:00:03.228Z: ✓ Got tenant access token
+2026-03-13T23:00:03.228Z: ✓ Got tenant access token
+2026-03-13T23:00:03.228Z: Uploading file: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+2026-03-13T23:00:03.228Z: Uploading file: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+2026-03-13T23:00:04.226Z: ✓ File uploaded, file_key: file_v3_00vp_ffdc08d5-910b-4e43-a0e0-69fa4ff2fc3g
+2026-03-13T23:00:04.226Z: ✓ File uploaded, file_key: file_v3_00vp_ffdc08d5-910b-4e43-a0e0-69fa4ff2fc3g
+2026-03-13T23:00:04.227Z: Sending message to chat: oc_eb619c8fea8c56afb88b44bf92abaca1
+2026-03-13T23:00:04.227Z: Sending message to chat: oc_eb619c8fea8c56afb88b44bf92abaca1
+2026-03-13T23:00:05.152Z: ✓ Message sent successfully
+2026-03-13T23:00:05.152Z: ✓ Message sent successfully
+2026-03-13T23:00:05.152Z: === Delivery complete ===
+2026-03-13T23:00:05.152Z: === Delivery complete ===
+Fri Mar 13 23:00:05 UTC 2026: Review generated and sent
+Sat Mar 14 23:00:01 UTC 2026: Starting vocabulary review
+==================================================
+📚 Vocabulary Review Generator
+==================================================
+[INFO] Selected 20 items for review
+[INFO] Active vocabulary: 427
+[INFO] Generated: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+[INFO] Updated review status for 20 items
+==================================================
+✅ Daily review document generated!
+==================================================
+2026-03-14T23:00:01.619Z: === Starting vocabulary review delivery ===
+2026-03-14T23:00:01.619Z: === Starting vocabulary review delivery ===
+2026-03-14T23:00:01.620Z: Getting tenant access token...
+2026-03-14T23:00:01.620Z: Getting tenant access token...
+2026-03-14T23:00:02.619Z: ✓ Got tenant access token
+2026-03-14T23:00:02.619Z: ✓ Got tenant access token
+2026-03-14T23:00:02.620Z: Uploading file: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+2026-03-14T23:00:02.620Z: Uploading file: /root/openclaw-workspaces/workspace-english-tutor/projects/vocabulary/output/daily_review.docx
+2026-03-14T23:00:03.061Z: ✓ File uploaded, file_key: file_v3_00vq_c4102a97-e650-4df8-8192-25371353dbdg
+2026-03-14T23:00:03.061Z: ✓ File uploaded, file_key: file_v3_00vq_c4102a97-e650-4df8-8192-25371353dbdg
+2026-03-14T23:00:03.062Z: Sending message to chat: oc_eb619c8fea8c56afb88b44bf92abaca1
+2026-03-14T23:00:03.062Z: Sending message to chat: oc_eb619c8fea8c56afb88b44bf92abaca1
+2026-03-14T23:00:03.718Z: ✓ Message sent successfully
+2026-03-14T23:00:03.718Z: ✓ Message sent successfully
+2026-03-14T23:00:03.718Z: === Delivery complete ===
+2026-03-14T23:00:03.718Z: === Delivery complete ===
+Sat Mar 14 23:00:03 UTC 2026: Review generated and sent
